@@ -886,7 +886,7 @@
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">davidtn52@gmail.com</a>
+          <a href="#" onclick="openSendEmail()" class="contact-box__info--title">davidtn52@gmail.com</a>
           <p class="contact-box__info--subtitle">Send me an email</p>
         </div>
       </div>
@@ -997,6 +997,9 @@
     <script type="text/javascript">
       function openLinkedIn() {
         window.open('https://www.linkedin.com/in/david-torrez-navarro-aa750316b', '_blank');        
+      }
+      function openSendEmail() {
+        window.open('mailto:davidtn52@gmail.com?subject=Asunto&body=Este%20es%20el%20cuerpo%20del%20mensaje', '_blank');        
       }
       function openGitHub() {
         window.open('https://github.com/0007David', '_blank');        

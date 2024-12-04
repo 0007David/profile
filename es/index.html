@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="./images/circular_image.png" type="image/x-icon" sizes="24x24" />
+    <link rel="icon" href="../images/circular_image.png" type="image/x-icon" sizes="24x24" />
     <title>Dave Torrez</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/fontawesome.css">
@@ -32,7 +32,7 @@
           <li class="nav-item"><a class="nav-link" href="#">Habilidades</a></li>
           <!-- <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li> -->
           <!-- <li class="nav-item"><a class="nav-link" href="#">faq</a></li> -->
-          <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">PortaFolio</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Contacta me</a>
           </li>
         </ul>
@@ -887,7 +887,7 @@
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">davidtn52@gmail.com</a>
+          <a href="#" onclick="openSendEmail()" class="contact-box__info--title">davidtn52@gmail.com</a>
           <p class="contact-box__info--subtitle">Send me an email</p>
         </div>
       </div>
@@ -998,6 +998,9 @@
     <script type="text/javascript">
       function openLinkedIn() {
         window.open('https://www.linkedin.com/in/david-torrez-navarro-aa750316b', '_blank');        
+      }
+      function openSendEmail() {
+        window.open('mailto:davidtn52@gmail.com?subject=Asunto&body=Este%20es%20el%20cuerpo%20del%20mensaje', '_blank');        
       }
       function openGitHub() {
         window.open('https://github.com/0007David', '_blank');        
